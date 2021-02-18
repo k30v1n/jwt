@@ -7,11 +7,11 @@ Json Web Tokens - Examples about custom JWT signatures using manual signatures w
 
 ## Creating RSA SHA256 signing keys (testing)
 
-Create a RSA key
+1. Create a RSA key
 `openssl genrsa -out rsakey.key 2048`
 
-Create a x509 certificate and a public key
+1. Create a x509 certificate and a public key
 `openssl req -new -x509 -sha256 -key rsakey.key -out public-certificate.cer -days 10000`
 
-Export the public and private key to a encripted pfx certificate
+1. Export the public and private key to a encripted pfx certificate
 `openssl pkcs12 -export -out private-certificate.pfx -inkey rsakey.key -in public-certificate.cer`
