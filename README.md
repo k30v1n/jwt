@@ -1,5 +1,5 @@
-# examples_jwt-signatures 
-Examples about custom JWT signatures using manual signatures with asymetric generated RSA keys. The generated JWT can be validated/checked on https://jwt.io
+# JWTs
+Json Web Tokens - Examples about custom JWT signatures using manual signatures with asymetric generated RSA keys. The generated JWT can be validated/checked on https://jwt.io
 
 ## Projects
 - Jwt-ConsoleApp: Here is shown how to manually generate a JWT token and validate it with Private and Public key
